@@ -26,7 +26,7 @@ client.vote = new Map();
     if(!cmd) return message.reply(`\`${cmdName}\`  esse comando não existe!`);
 
     try{
-        cmd.execute(client, message, args, database);
+        cmd.execute(client, message, args);
     }catch(err){
         message.reply(`Comando com erro, por favor, vizualize o console`);
         console.log(err);
