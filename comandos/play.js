@@ -136,7 +136,7 @@ module.exports = {
           .send({
             embed: {
               description: `😭 | Não foi possível entrar no canal: ${error}`,
-              color: "#ff2050"
+              color: "#8A2BE2"
             }
           })
           .catch(console.error);
